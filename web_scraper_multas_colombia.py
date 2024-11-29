@@ -56,3 +56,6 @@ class MultasSpider(Spider):
             item.add_xpath('ruta_proceso', './td[14]/a/@href')
             
             yield item.load_item()
+
+
+# comando - scrapy runspider web_scraper_multas_colombia.py -o resultados.csv
